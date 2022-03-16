@@ -23,3 +23,16 @@ function numbersReverse(reverse){
 }
 
 console.log(numbersReverse([1,2,3,4,5,6]));
+
+//A function to reverse a string
+
+function stringReverse(string){
+    let theString = '';
+
+    for (i = string.length - 1; i >= 0; i--){
+        theString = theString + string[i];
+    }
+    return theString;
+}
+
+console.log(stringReverse('John Doe'));
